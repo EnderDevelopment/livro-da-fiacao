@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "sharpness250book",
+  "version": "${version}",
+  "name": "Sharpness 250 Book",
+  "description": "Adds a book that applies Sharpness 250 to a sword.",
+  "authors": ["EnderDevelopment"],
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.enderdevelopment.sharpness250.Sharpness250BookMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
